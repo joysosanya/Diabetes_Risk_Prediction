@@ -1,8 +1,10 @@
 **PROJECT TITLE: EARLY DIABETES RISK PREDICTION ANALYSIS**
+
 **INTRODUCTION**
 Diabetes is a chronic disease that happens when your blood sugar (glucose) is too high and this project aims to predict early diabetes risk with the use of Machine LearningDiabetes is a condition that happens when your blood sugar (glucose) is too high. It develops when your pancreas doesn’t make enough insulin or any at all, or when your body isn’t responding to the effects of insulin properly. Diabetes affects people of all ages. Most forms of diabetes are chronic (lifelong), and all forms are manageable with medications and/or lifestyle changes.
 
 **AIM:** This project aims to predict early diabetes risk with the use of Machine Learning
+
 **Dataset Source**:Kaggle
 
 **Attributes Overview**
@@ -34,8 +36,11 @@ Diabetes is a chronic disease that happens when your blood sugar (glucose) is to
 **Partial Paresis:** This binary attribute indicates whether the patient experiences partial paresis, which is partial paralysis or muscle weakness. Diabetes can cause nerve damage, leading to such symptoms.
 
 **Muscle Stiffness:** This binary attribute indicates whether the patient experiences muscle stiffness. Diabetes can cause muscle stiffness due to changes in metabolism and blood flow.
-Alopecia: This binary attribute indicates whether the patient has experienced hair loss (alopecia). Diabetes can affect hair growth due to hormonal imbalances and poor blood circulation.
 
-Obesity: This binary attribute indicates whether the patient is obese. Obesity is a significant risk factor for diabetes, particularly type 2 diabetes.
+**Alopecia:** This binary attribute indicates whether the patient has experienced hair loss (alopecia). Diabetes can affect hair growth due to hormonal imbalances and poor blood circulation.
 
-Class: This target attribute indicates whether the patient is classified as having early-stage diabetes. It is usually a binary attribute where a value indicates either the presence or absence of diabetes.
+**Obesity:** This binary attribute indicates whether the patient is obese. Obesity is a significant risk factor for diabetes, particularly type 2 diabetes.
+
+**Class:** This target attribute indicates whether the patient is classified as having early-stage diabetes. It is usually a binary attribute where a value indicates either the presence or absence of diabetes.
+
+
