@@ -50,6 +50,7 @@ The Bar Chart interpretes that from the population, females constitute a larger 
 correlation matrix interpretes that Polydipsia has strong relationship with diabetes with 0.65 while Polyuria has a negative correlation with 0.67
 
 **Conclusion from Machine Learning Models used**
+
 The Random Forest Classifier is the most accurate model, achieving a perfect 100% accuracy on the test dataset. It is recommended for predicting whether a patient has diabetes, as it generalizes well without overfitting.
 
 XGBoost is also a strong contender with near-perfect performance (99.04%) and can be considered if computational efficiency is important.
