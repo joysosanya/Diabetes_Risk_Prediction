@@ -3,7 +3,7 @@
 **INTRODUCTION**
 Diabetes is a chronic disease that happens when your blood sugar (glucose) is too high and this project aims to predict early diabetes risk with the use of Machine LearningDiabetes is a condition that happens when your blood sugar (glucose) is too high. It develops when your pancreas doesn’t make enough insulin or any at all, or when your body isn’t responding to the effects of insulin properly. Diabetes affects people of all ages. Most forms of diabetes are chronic (lifelong), and all forms are manageable with medications and/or lifestyle changes.
 
-**AIM:** This project aims to predict early diabetes risk with the use of Machine Learning
+**AIM:** This project aims to predict early diabetes risk using a variety of machine learning models to enhance prediction accuracy and reliability.
 
 **Dataset Source**:Kaggle
 
@@ -43,4 +43,17 @@ Diabetes is a chronic disease that happens when your blood sugar (glucose) is to
 
 **Class:** This target attribute indicates whether the patient is classified as having early-stage diabetes. It is usually a binary attribute where a value indicates either the presence or absence of diabetes.
 
+**Exploratory Data Analysis**
 
+The Bar Chart interpretes that from the population, females constitute a larger set
+
+correlation matrix interpretes that Polydipsia has strong relationship with diabetes with 0.65 while Polyuria has a negative correlation with 0.67
+
+**Conclusion from Machine Learning Models used**
+The Random Forest Classifier is the most accurate model, achieving a perfect 100% accuracy on the test dataset. It is recommended for predicting whether a patient has diabetes, as it generalizes well without overfitting.
+
+XGBoost is also a strong contender with near-perfect performance (99.04%) and can be considered if computational efficiency is important.
+
+Gaussian Naive Bayes and Logistic Regression performed adequately, but they were outperformed by the more complex models.
+
+In future iterations of the project, hyperparameter tuning and additional data preprocessing could be explored to improve the performance of other models.
